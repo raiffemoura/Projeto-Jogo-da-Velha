@@ -1,0 +1,74 @@
+body{
+    text-align: center;
+
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    border: 1px solid gray;
+    display: inline-block;
+   
+
+}
+
+.o{
+    position: relative;
+}
+.o:after{
+    content: "\2B55" ;
+    font-size: 60px;
+    line-height: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.x{
+    position: relative;
+
+}
+.x:after{
+    content: "\1F5D9";
+    font-size: 80px;
+    line-height: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#resetar{
+    margin-top: 30px;
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 15px;
+    border-style: none;
+    border: 1px solid black;
+    background-color: beige;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#resetar:hover{
+/* font-size: 1.3rem;
+width: 10.5rem;
+height: 2.8rem;
+transition: linear 50ms; */
+transform: scale(1.05);
+transition: linear 50ms;
+}
+
+#resetar:active{
+    transform: scale(1);
+    transition: linear 20ms;
+}
